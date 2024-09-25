@@ -23,7 +23,7 @@ Crie ou edite um arquivo `.htaccess` na raiz do seu site e adicione as seguintes
   RewriteRule ^(.*)$ index.php?url=$1 [L,QSA]
 
   ```
-  - Essas regras fazem o Apache reescrever a URL para ser processada pelo arquivo `index.php`, passando o caminho amigável como um parâmetro `url`.
+Essas regras fazem o Apache reescrever a URL para ser processada pelo arquivo `index.php`, passando o caminho amigável como um parâmetro `url`.
 
 ## 3. Tratar a URL no PHP
 
