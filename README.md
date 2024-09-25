@@ -2,7 +2,7 @@ Para criar URLs amigáveis em um site desenvolvido em PHP, Bootstrap e JavaScrip
 
 ## 1. Ativar o módulo de reescrita no Apache (mod_rewrite)
 
-- Se você estiver usando o servidor Apache, é necessário ativar o módulo mod_rewrite. Em um ambiente Linux, você pode fazer isso com o seguinte comando:
+Se você estiver usando o servidor Apache, é necessário ativar o módulo mod_rewrite. Em um ambiente Linux, você pode fazer isso com o seguinte comando:
 
 ```bash
 
@@ -12,7 +12,7 @@ Para criar URLs amigáveis em um site desenvolvido em PHP, Bootstrap e JavaScrip
 
 ## 2. Configurar o arquivo `.htaccess`
 
-- Crie ou edite um arquivo `.htaccess` na raiz do seu site e adicione as seguintes regras para reescrever as URLs:
+Crie ou edite um arquivo `.htaccess` na raiz do seu site e adicione as seguintes regras para reescrever as URLs:
 
   ```htacces
   RewriteEngine On
@@ -27,7 +27,7 @@ Para criar URLs amigáveis em um site desenvolvido em PHP, Bootstrap e JavaScrip
 
 ## 3. Tratar a URL no PHP
 
-- No arquivo `index.php`, você pode capturar o valor da URL amigável e tratá-la para carregar as páginas corretas. Por exemplo:
+No arquivo `index.php`, você pode capturar o valor da URL amigável e tratá-la para carregar as páginas corretas. Por exemplo:
 
   ```PHP
   
@@ -62,7 +62,7 @@ Para criar URLs amigáveis em um site desenvolvido em PHP, Bootstrap e JavaScrip
   ```
 ##  4. Estrutura de Pastas
 
-- Organize suas páginas em uma pasta `pages` para facilitar o gerenciamento. Por exemplo:
+Organize suas páginas em uma pasta `pages` para facilitar o gerenciamento. Por exemplo:
 
   ```bash
   
@@ -75,7 +75,7 @@ Para criar URLs amigáveis em um site desenvolvido em PHP, Bootstrap e JavaScrip
   ```
 ##  5. Usando URLs amigáveis no Bootstrap e JavaScript
 
-- Em seus links, em vez de usar URLs como `index.php?page=about`, use o formato amigável:
+Em seus links, em vez de usar URLs como `index.php?page=about`, use o formato amigável:
 
   ```html
 
@@ -91,4 +91,4 @@ Para criar URLs amigáveis em um site desenvolvido em PHP, Bootstrap e JavaScrip
 
 Com esses passos, você conseguirá criar URLs amigáveis em seu site em PHP, utilizando Bootstrap e JavaScript.
 
-### Doni7Brandão
+#### Doni7Brandão
